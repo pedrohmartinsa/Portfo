@@ -4,10 +4,10 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home.jsx'
-import Projects from './pages/Projects.jsx'
+import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
-import SocialMedia from './pages/SocialMedia.jsx'
 import Certificates from './pages/Certificates.jsx'
+import Projects from './pages/Projects.jsx'
 
 const router = createBrowserRouter
 (
@@ -18,8 +18,8 @@ const router = createBrowserRouter
 
       children: [
         {path: "/", element: <Home/>},
+        {path: "about", element: <About/>},
         {path: "projects", element: <Projects/>},
-        {path: "socialMedia", element: <SocialMedia/>},
         {path: "certificates", element: <Certificates/>},
         {path: "contact", element: <Contact/>}
       ]
