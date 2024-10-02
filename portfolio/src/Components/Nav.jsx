@@ -68,7 +68,7 @@ export default function Nav() {
                                 Links.map((link) => (
                                     <li key={link.name} className="text-xl my-7 
                                                                     md:ml-8 md:my-0">
-                                        <NavLink onClick={closeMenu} className="text-gray-800 hover:text-gray-400 duration-500" to={link.link}> {link.name} </NavLink>
+                                        <NavLink onClick={() => setOpen(!open)} className="text-gray-800 hover:text-gray-400 duration-500" to={link.link}> {link.name} </NavLink>
                                     </li>
                                 ))
                             }
