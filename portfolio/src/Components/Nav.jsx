@@ -47,9 +47,9 @@ export default function Nav() {
                     <div className="items-center justify-between bg-white py-4  px-7
                                     md:flex md:px-10">
 
-                        <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
+                        <div className="font-bold text-4xl pt-2 cursor-pointer flex items-center text-gray-800">
 
-                            <span className="text-3xl mr-1 pt-2">
+                            <span className="text-4xl mr-1">
                                 <SiDragonframe />
                             </span>
                             PH
