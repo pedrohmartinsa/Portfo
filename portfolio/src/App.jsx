@@ -8,8 +8,13 @@ function App() {
 
   return (
     <>
+    
       <Nav/>
+      <div className="mt-20">
+      <Outlet/>
+      </div>
       <Footer/>
+    
     </>
   )
 }
