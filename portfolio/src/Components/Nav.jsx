@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Button from "./Button";
 import { NavLink } from "react-router-dom";
 import { SiDragonframe } from "react-icons/si";
+import { FaCircle } from "react-icons/fa6";
 
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
@@ -19,7 +20,7 @@ export default function Nav() {
     ]
 
     let [open, setOpen]=useState(false)
-    let [isScrolled, setIsScrolled] = useState(false);
+    let [isScrolled, setIsScrolled] = useState(false)
 
     const closeMenu = () => {
         setOpen(false);
@@ -67,7 +68,7 @@ export default function Nav() {
                                 Links.map((link) => (
                                     <li key={link.name} className="text-xl my-7 
                                                                     md:ml-8 md:my-0">
-                                        <NavLink onClick={closeMenu} className="text-gray-800 hover:text-gray-400 duration-500" to={link.link}>{link.name}</NavLink>
+                                        <NavLink onClick={closeMenu} className="text-gray-800 hover:text-gray-400 duration-500" to={link.link}> {link.name} </NavLink>
                                     </li>
                                 ))
                             }
