@@ -6,29 +6,27 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
     return(
         <>
-            <footer className="flex flex-col items-center py-7 gap-y-10 bg-stone-800 text-white absolute bottom-0 w-full
+            <footer className="px-3 flex items-center justify-between py-7 gap-y-10 text-black w-full
                                 md:flex-row md:justify-between md:px-6 ">
 
-                <h3>Desenvolvido por Pedro Henrique</h3>
-
-                <h3>Copyright © PH</h3>
+                <h3 className="text-xs font-bold text-slate-700">Copyright © PH</h3>
 
                 <div className="flex gap-x-5">
 
                     <a href="https://www.linkedin.com/in/pedrohmas/">
-                        <FaLinkedin size={30} color="white"/>
+                        <FaLinkedin color="black"/>
                     </a>
 
                     <a href="https://www.github.com/pedrohmartinsa/">
-                        <FaGithubSquare size={30} color="white"/>
+                        <FaGithubSquare color="black"/>
                     </a>
 
                     <a href="https://www.instagram.com/pedroo_hmas/">
-                        <AiFillInstagram size={30} color="white"/>
+                        <AiFillInstagram  color="black"/>
                     </a>
 
                     <a href="mailto:pedroshenriquepsantos@gmail.com">
-                        <MdEmail size={30} color="white"/>
+                        <MdEmail color="black"/>
                     </a>
 
                 </div>
