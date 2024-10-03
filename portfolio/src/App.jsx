@@ -11,11 +11,14 @@ function App() {
 
       <div className="relative flex items-center justify-center w-screen h-screen bg-white">
 
-        <div className="flex flex-col justify-between py-10 border-2 border-black w-[90%] h-[90%]">
+        <div className="fixed z-[1000] flex flex-col justify-between py-10 border-2 border-black w-[90%] h-[90%]">
 
-          <Nav/>
+          <div className="fixed ">
+            <Nav/>
+          </div>
+          
 
-          <div className="md:p-7 md:mr-4 bottom-0 self-end">
+          <div className="absolute bottom-0 right-0 h-[50%] w-full overflow-y-scroll md:h-[40%] pl-16 md:pl-0 md:p-7 md:mr-4 md:w-72">
           <Outlet/>
           </div>
         </div>
