@@ -1,10 +1,10 @@
 export default function Home() {
     return(
         <>
-            <div className="flex flex-col">
-
-                <p className="">Me chamo Pedro Henrique Martins Alves dos Santos, apaixonado por tecnologia e programação, estou no processo da minha formação de Engenharia de Software. Estudando constantemente e buscando sempre o meu melhor. Além disso, gosto muito de praticar esportes físicos, de jogar vídeo game e sair com meus amigos.</p>
-                
+            <div className="w-44 text-black font-bold">
+                <div>
+                    <h1>Olá, me chamo Pedro Henrique Martins Alves dos Santos, nascido e criado em São Paulo, sou um jovem muito alegre explorando e me apaixonando pelo mundo da tecnologia e programação. E aqui neste portfólio você verá um pouco mais sobre mim, minhas habilidades e projetos durante essa jornada pelo mundo tecnológico.</h1>
+                </div>
             </div>
         </>
             

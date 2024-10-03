@@ -14,19 +14,19 @@ export default function Footer() {
                 <div className="flex justify-between gap-x-5">
 
                     <a href="https://www.linkedin.com/in/pedrohmas/">
-                        <FaLinkedin color="black"/>
+                        <FaLinkedin color="black" size={20}/>
                     </a>
 
                     <a href="https://www.github.com/pedrohmartinsa/">
-                        <FaGithubSquare color="black"/>
+                        <FaGithubSquare color="black" size={20}/>
                     </a>
 
                     <a href="https://www.instagram.com/pedroo_hmas/">
-                        <AiFillInstagram  color="black"/>
+                        <AiFillInstagram  color="black" size={20}/>
                     </a>
 
                     <a href="mailto:pedroshenriquepsantos@gmail.com">
-                        <MdEmail color="black"/>
+                        <MdEmail color="black" size={20}/>
                     </a>
 
                 </div>
