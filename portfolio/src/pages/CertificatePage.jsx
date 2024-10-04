@@ -7,17 +7,25 @@ export default function CertificatePage() {
 
     const {id, titulo, tempo, conteudo, foto} = useParams()
     
+    const certificados = {
+        excel: "/excel.jpg"
+    }
 
     return(
         <>
         <div className="text-black ">
-            <Link to='/certificates' className="hover:text-slate-700">
-                <IoArrowBackCircle size={30}/>
-            </Link>
+
+            
             
 
             <div className="flex flex-col items-center gap-7">
-                <h2 className="text-3xl font-bold">{titulo}</h2>
+                <div className="flex gap-4">
+                    <Link to='/certificates' className="hover:text-slate-700 mt-1">
+                        <IoArrowBackCircle size={30}/>
+                    </Link>
+                    <h2 className="text-3xl font-bold">{titulo}</h2>
+                </div>
+                
                 <p className="font-bold">Tempo de duração: <span className="font-normal">{tempo}</span> </p>
                 
                 <div className="flex flex-col items-center gap-10">
@@ -29,7 +37,7 @@ export default function CertificatePage() {
 
                     <BotaoIMG
                     titulo= 'Certificado'
-                    foto= {foto}/>
+                    foto= {`/${foto}`}/>
 
                 </div>
             </div>
