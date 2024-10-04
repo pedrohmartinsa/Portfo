@@ -15,6 +15,7 @@ import { FaGithub } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { SiPycharm } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa";
 
 export default function About() {
 
@@ -33,7 +34,8 @@ export default function About() {
     const ferramentas = [
         {name: 'VSCode', icon:<VscVscode size={30}/>},
         {name: 'PyCharm', icon:<SiPycharm size={30}/>},
-        {name: 'NodeJS', icon:<FaNodeJs size={30}/>}
+        {name: 'NodeJS', icon:<FaNodeJs size={30}/>},
+        {name: 'Figma', icon: <FaFigma size={30}/>}
     ]
 
     return(
