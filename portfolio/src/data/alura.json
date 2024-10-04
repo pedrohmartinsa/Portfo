@@ -3,51 +3,72 @@
         "id": 1,
         "titulo": "Excel: domine o editor de planilhas.",
         "tempo": "8h",
-        "conteudo": "Como identificar o que é uma planilha ou uma pasta de trabalho - Conheci as funcionalidades básicas do Microsoft Excel - Aprendi como fazer cálculos simples em uma planilha - Iniciei o uso de gráficos em minhas planilhass - Sei como imprimir ou compartilhar pastas de trabalho",
+        "conteudo": "Como identificar o que é uma planilha ou uma pasta de trabalho • Conheci as funcionalidades básicas do Microsoft Excel • Aprendi como fazer cálculos simples em uma planilha • Iniciei o uso de gráficos em minhas planilhass • Sei como imprimir ou compartilhar pastas de trabalho",
         "icon1": "excel",
         "icon2": "",
         "foto": "excel.jpg"
     },
     {
         "id": 2,
-        "titulo": "HTML e CSS: cabeçalho e variáveis CSS.",
+        "titulo": "HTML e CSS: cabeçalho, footer e variáveis CSS.",
+        "tempo": "6h",
+        "conteudo": "Entender o dia a dia de um desenvolvedor Front-end de forma prática • Saber como criar um código HTML e CSS seguindo boas práticas de programação • Descobrir como utilizar variáveis CSS para manter seu código sustentável e limpo • Trabalhar com mais de uma página HTML no mesmo projeto • Conhecer as pseudo classes com exemplos reais e práticos",
         "icon1": "html",
-        "icon2": "css"
+        "icon2": "css",
+        "foto": "html_e_css_1.jpg"
     },
     {
         "id": 3,
         "titulo": "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags.",
+        "tempo": "8h",
+        "conteudo": "Aprender a fazer o download e instalar um ambiente para o desenvolvimento de páginas HTML e CSS • Saber como estudar uma nova tecnologia com base na documentação • Criar um projeto com HTML e CSS do zero • Praticar estilizações com CSS • Entender a importância do HTML semântico e boas práticas de desenvolvimento",
         "icon1": "html",
-        "icon2": "css"
+        "icon2": "css",
+        "foto": "html_e_css_2.jpg"
     },
     {
         "id": 4,
         "titulo": "HTML e CSS: Classes, posicionamentos e Flexbox.",
+        "tempo": "8h",
+        "conteudo": "Aprender o que são classes CSS e sua importância • Conhecer o Flexbox e aplique técnicas para posicionar seus elementos de forma prática • Saber como estilizar seus textos, fontes e ícones - Entender como posicionar os elementos de uma página com CSS • Descobrir como aplicar efeitos de estilização alterando cores, arredondamentos e importar fontes para seu projeto",
         "icon1": "html",
-        "icon2": "css"
+        "icon2": "css",
+        "foto": "html_e_css_3.jpg"
     },
     {
         "id": 5,
         "titulo": "Praticando CSS: Grid e Flexbox.",
+        "tempo": "6h",
+        "conteudo": "Construir um projeto responsivo praticando com Flexbox e Grid, com base no mobile-first • Calcular a largura das colunas e altura das linhas de um Grid Layout • Entender alteração de eixos com Flexbox • Desenhar templates por meio das áreas do Grid • Criar alinhamentos e espaçamentos com Flexbox e Grid",
         "icon1": "css",
-        "icon2": ""
+        "icon2": "",
+        "foto": "css.jpg"
     },
     {
         "id": 6,
         "titulo": "React: configurando e estruturando projetos com Vite.",
+        "tempo": "8h",
+        "conteudo": "Configurar e estruture um projeto React com Vite • Criar componentes usando Vite • Entender o ciclo de vida dos componentes em React • Gerenciar estados com o hook useState • Manipular efeitos colaterais com o hook useEffect • Compartilhar minha aplicação React no Github Pages e Vercel",
         "icon1": "react",
-        "icon2": "vite"
+        "icon2": "vite",
+        "foto": "react.jpg"
     },
     {
         "id": 7,
         "titulo": "Lógica da programação: explore funções e listas.",
+        "tempo": "6h",
+        "conteudo": "Aprender o que são funções e como usar o JavaScript para manipular elementos na tela • Desenvolver ainda mais sua lógica de programação inspirado num projeto real • Saber como usar o Github e Vercel para publicar seus projetos - Descubrir como utilizar listas, uma das principais estruturas de dados no mundo da programação - Criar manipulações de palavras e números de forma dinâmica com JavaScript",
         "icon1": "js",
-        "icon2": ""
+        "icon2": "",
+        "foto": "js_1.jpg"
     },
     {
         "id": 8,
         "titulo": "Lógica de programação: mergulhe em programação com JavaScript.",
+        "tempo": "6h",
+        "conteudo": "Exibir mensagens na tela de forma interativa • Utilizar variáveis no desenvolvimento de software • Ingressar no mundo de desenvolvimento seguindo boas práticas de programação • Desenvolver uma aplicação do início ao fim, inspirada no mundo real • Aprender a adaptar soluções desenvolvidas pela linguagem em seus programas de software",
         "icon1": "js",
-        "icon2": ""
+        "icon2": "",
+        "foto": "js_2.jpg"
     }
 ]

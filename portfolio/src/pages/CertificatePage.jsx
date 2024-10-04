@@ -6,14 +6,10 @@ import BotaoIMG from "../Components/BotaoIMG";
 export default function CertificatePage() {
 
     const {id, titulo, tempo, conteudo, foto} = useParams()
-    
-    const certificados = {
-        excel: "/excel.jpg"
-    }
 
     return(
         <>
-        <div className="text-black ">
+        <div className="">
 
             
             
@@ -23,7 +19,7 @@ export default function CertificatePage() {
                     <Link to='/certificates' className="hover:text-slate-700 mt-1">
                         <IoArrowBackCircle size={30}/>
                     </Link>
-                    <h2 className="text-3xl font-bold">{titulo}</h2>
+                    <h2 className="text-2xl font-bold w-48">{titulo}</h2>
                 </div>
                 
                 <p className="font-bold">Tempo de duração: <span className="font-normal">{tempo}</span> </p>

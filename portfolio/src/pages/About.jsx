@@ -38,7 +38,7 @@ export default function About() {
 
     return(
         <>
-            <div className="flex flex-col gap-20 text-black text-[13px] md:text-lg font-bold">
+            <div className="flex flex-col gap-20 text-[13px] md:text-lg font-bold">
                 <div className="flex flex-col gap-3">
                     <h2 className="text-lg">Coisas que gosto de fazer:</h2>
                     <ul className="flex flex-col gap-3">

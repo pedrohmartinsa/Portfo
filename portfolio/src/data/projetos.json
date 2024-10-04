@@ -1,0 +1,25 @@
+[
+    {
+        "id": 15,
+        "nome": "Culturama",
+        "sobre": "Destinado a treinar flex e grid. deixando a página responsiva repassando do Figma para o HTML e CSS.",
+        "repositorio": "culturama",
+        "icon": "projeto"
+    },
+
+    {
+        "id": 16,
+        "nome": "E-hub",
+        "sobre": "Protótipo da plataforma interativa da Fórmula E para a TechMahindra",
+        "repositorio": "",
+        "icon": "projeto"
+    },
+
+    {
+        "id": 17,
+        "nome": "CP2 - Web Dev",
+        "sobre": "Repassando uma página do Figma para o React+Vite (trabalho em equipe)",
+        "repositorio": "",
+        "icon": "projeto"
+    }
+]

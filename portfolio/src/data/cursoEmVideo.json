@@ -2,20 +2,29 @@
     {
         "id": 9,
         "titulo": "Python 3 - Mundo 1",
+        "tempo": "40h",
+        "conteudo": "Introdução ao Mundo da Programação • Primeiros passos com o Python • Tratando dados e fazendo contas • Usando módulos do Python • Condições em Python (if..else) • Adicionando cores ao Python",
         "icon1": "python",
-        "icon2": ""
+        "icon2": "",
+        "foto": "Não consegui anexar"
         
     },
     {
         "id": 10,
         "titulo": "Python 3 - Mundo 2",
+        "tempo": "40h",
+        "conteudo": "Condições em Python (if..elif) • Repetições em Python (for) • Repetições em Python (while)",
         "icon1": "python",
-        "icon2": ""
+        "icon2": "",
+        "foto": "Não consegui anexar"
     },
     {
         "id": 11,
         "titulo": "Python 3 - Mundo 3",
+        "tempo": "40h",
+        "conteudo": "Tuplas em Python • Listas em Python • Dicionários em Python • Funções em Python • Modularização em Python • Tratamento de Erros em Python",
         "icon1": "python",
-        "icon2": "" 
+        "icon2": "",
+        "foto": "Não consegui anexar"
     }
 ]
