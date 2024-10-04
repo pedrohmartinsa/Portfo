@@ -8,6 +8,7 @@ import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Certificates from './pages/Certificates.jsx'
 import Projects from './pages/Projects.jsx'
+import CertificatePage from './pages/CertificatePage.jsx'
 
 const router = createBrowserRouter
 (
@@ -21,6 +22,7 @@ const router = createBrowserRouter
         {path: "about", element: <About/>},
         {path: "projects", element: <Projects/>},
         {path: "certificates", element: <Certificates/>},
+        {path: "certificates/:id/:titulo/:tempo/:conteudo/:foto", element: <CertificatePage/>},
         {path: "contact", element: <Contact/>}
       ]
     }

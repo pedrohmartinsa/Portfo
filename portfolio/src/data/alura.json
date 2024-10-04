@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "titulo": "Excel: domine o editor de planilhas.",
+        "tempo": "8h",
+        "conteudo": "Como identificar o que é uma planilha ou uma pasta de trabalho - Conheci as funcionalidades básicas do Microsoft Excel - Aprendi como fazer cálculos simples em uma planilha - Iniciei o uso de gráficos em minhas planilhass - Sei como imprimir ou compartilhar pastas de trabalho",
+        "icon1": "excel",
+        "icon2": "",
+        "foto": "/excel.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "HTML e CSS: cabeçalho e variáveis CSS.",
+        "icon1": "html",
+        "icon2": "css"
+    },
+    {
+        "id": 3,
+        "titulo": "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags.",
+        "icon1": "html",
+        "icon2": "css"
+    },
+    {
+        "id": 4,
+        "titulo": "HTML e CSS: Classes, posicionamentos e Flexbox.",
+        "icon1": "html",
+        "icon2": "css"
+    },
+    {
+        "id": 5,
+        "titulo": "Praticando CSS: Grid e Flexbox.",
+        "icon1": "css",
+        "icon2": ""
+    },
+    {
+        "id": 6,
+        "titulo": "React: configurando e estruturando projetos com Vite.",
+        "icon1": "react",
+        "icon2": "vite"
+    },
+    {
+        "id": 7,
+        "titulo": "Lógica da programação: explore funções e listas.",
+        "icon1": "js",
+        "icon2": ""
+    },
+    {
+        "id": 8,
+        "titulo": "Lógica de programação: mergulhe em programação com JavaScript.",
+        "icon1": "js",
+        "icon2": ""
+    }
+]
