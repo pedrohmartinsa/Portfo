@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
     return(
         <>
-            <footer className="flex justify-between text-black w-full
+            <footer className="flex justify-between text-primary w-full
                                 ">
 
                 <h3 className="text-xs font-bold text-slate-700">Copyright © PH</h3>

@@ -1,7 +1,7 @@
 export default function SkillCard( {icon, name} ) {
     return(
         <>
-        <div className="flex items-center justify-center border-black border-2 w-20 h-20 group p-10 bg-black/[.04] dark:bg-white/[.04] rounded-lg transform transition-transform hover:scale-125">
+        <div className="flex items-center justify-center border-primary border-2 w-20 h-20 group p-10 bg-primary/[.04] dark:bg-white/[.04] rounded-lg transform transition-transform hover:scale-125">
             <div className="group-hover:translate-y-[-10px]  transition-transform duration-150">
                 <div className="">
                     {icon}

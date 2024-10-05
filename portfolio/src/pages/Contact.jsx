@@ -30,8 +30,9 @@ export default function Contact() {
                         <label htmlFor="nome">Nome:</label>
                         <input 
                             type="text" 
+                            placeholder="Nome..."
                             id="nome"
-                            className="text-black border-black bg-white border rounded-md h-8 "
+                            className="text-primary border-primary bg-secondary border rounded-md h-8 "
                             value={nome}
                             onChange={e => setNome (e.target.value)}
                             />
@@ -43,8 +44,9 @@ export default function Contact() {
                         <label htmlFor="email">Email:</label>
                         <input 
                             type="email" 
+                            placeholder="Email..."
                             id="nome"
-                            className="text-black border-black bg-white border rounded-md h-8"
+                            className="text-primary border-primary bg-secondary border rounded-md h-8"
                             value={email}
                             onChange={e => setEmail (e.target.value)}
                             />
@@ -54,16 +56,17 @@ export default function Contact() {
                     <label htmlFor="mensagem">Mensagem:</label>
                     <textarea  
                         id="mensagem"
+                        placeholder="Mensagem..."
                         cols="30"
                         rows="10"
-                        className="text-black bg-white border border-black rounded-md"
+                        className="text-primary bg-secondary border border-primary rounded-md w-48 md:w-auto"
                         value={mensagem}
                         onChange={e => setMensagem (e.target.value)}
                     >
 
                     </textarea>
                 
-                    <button type="submit" className="bg-white mt-5 text-black self-end w-24 h-10 hover:text-white hover:bg-black border-2 border-black rounded-md">Enviar</button>
+                    <button type="submit" className="bg-secondary mt-5 text-primary self-end w-24 h-10 hover:text-secondary hover:bg-primary border-2 border-primaryrounded-md mr-3">Enviar</button>
 
                 </form>
 

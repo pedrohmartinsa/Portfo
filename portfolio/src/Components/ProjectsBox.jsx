@@ -19,7 +19,7 @@ export default function ProjectsBox( { json } ) {
                         json
                         .map((detalhes) => (
                             <Link to= {`/projects/${detalhes.id}/${detalhes.nome}/${detalhes.sobre}/${detalhes.repositorio}`}
-                                className="flex flex-col mr-2 p-2 w-48 justify-center items-center hover:bg-black hover:text-white duration-300 border-black border-2 gap-4 rounded-md">
+                                className="flex flex-col mr-2 p-2 w-48 justify-center items-center hover:bg-primary hover:text-secondary duration-300 border-primary border-2 gap-4 rounded-md">
                                 <div className="self-start gap-1">
                                     {icons[detalhes.icon]}
                                 </div>

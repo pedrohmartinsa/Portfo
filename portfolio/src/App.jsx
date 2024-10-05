@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom"
 import { useState } from "react"
 import Nav from "./Components/Nav"
 import Footer from './Components/Footer'
-import ThemeColor from "./Components/ThemeColor"
+
 
 
 
@@ -10,19 +10,19 @@ function App() {
 
   return (
     <>
-      <div className=''>
+      <div className='text-primary bg-secondary'>
 
-          <div className="bg-white text-black  relative flex items-center justify-center w-screen h-screen">
+          <div className="relative flex items-center justify-center w-screen h-screen">
 
 
-            <div className="fixed z-[1000] flex flex-col justify-between py-10 border-2 border-black w-[90%] h-[90%]">
+            <div className="fixed z-[1000] flex flex-col justify-between py-10 border-2 border-primary w-[90%] h-[90%]">
 
               <div className="fixed ">
                 <Nav/>
               </div>
               
 
-              <div className="duration-300 absolute mr-7 bottom-0 right-0 h-[50%] w-[80vw] overflow-y-scroll md:h-[40%] pl-12 md:pl-0 md:p-7 md:mr-4 md:w-72">
+              <div className="absolute mr-7 bottom-0 right-0 h-[50%] w-[80vw] overflow-y-scroll md:h-[40%] pl-12 md:pl-0 md:p-7 md:mr-4 md:w-72">
               <Outlet/>
               </div>
             </div>

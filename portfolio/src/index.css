@@ -7,27 +7,11 @@
   padding: 0;
 }
 
-.app.default {
-  background-color: white;
-  color: black;
+.active::before{
+  content: '• ';
 }
 
-.app.retro {
-  background-color: #f2e1d1; 
-  color: #4b3d3d; 
+.active::after {
+  content: ' •';
 }
 
-.app.cyberpunk {
-  background-color: #0f0; 
-  color: black; 
-}
-
-.app.valentine {
-  background-color: #ff66b2; 
-  color: white; 
-}
-
-.app.aqua {
-  background-color: #00ffff; 
-  color: black; 
-}

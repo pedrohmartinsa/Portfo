@@ -23,6 +23,7 @@ export default function CertificatePage() {
                     <Link to='/certificates' className="hover:text-slate-700 mt-1">
                         <IoArrowBackCircle size={30}/>
                     </Link>
+                    
                     <h2 className="text-2xl font-bold w-auto">{titulo}</h2>
                 </div>
                 

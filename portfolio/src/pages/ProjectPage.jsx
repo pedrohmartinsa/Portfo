@@ -31,7 +31,7 @@ export default function ProjectPage() {
                     </div>
 
                     
-                    <a className="flex items-center justify-center border border-black w-36 h-11 rounded-lg gap-2 font-bold cursor-pointer hover:text-white hover:bg-black" href={repositorios[repositorio]}>
+                    <a className="flex items-center justify-center border border-primary w-36 h-11 rounded-lg gap-2 font-bold cursor-pointer hover:text-secondary hover:bg-primary" href={repositorios[repositorio]}>
                         <CiLink size={25}/>
                         repositório
                     </a>
