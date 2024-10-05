@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { CiLink } from "react-icons/ci";
 
 export default function Nav() {
 
@@ -19,6 +20,9 @@ export default function Nav() {
                 <NavLink className='md:hover:text-slate-500' to='projects'>Projects</NavLink>
                 <NavLink className='md:hover:text-slate-500' to='certificates'>Certificates</NavLink>
                 <NavLink className='md:hover:text-slate-500' to='contact'>Contact</NavLink>
+                <a className="flex items-center justify-center border border-black w-12 h-11 rounded-2xl gap-2 font-bold cursor-pointer hover:text-white hover:bg-black" href="https://github.com/pedrohmartinsa/Portfo">
+                        <CiLink size={25}/>
+                </a>
             </div>
         </div>
             

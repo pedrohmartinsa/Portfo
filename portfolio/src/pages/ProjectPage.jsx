@@ -27,13 +27,13 @@ export default function ProjectPage() {
 
                     <div className="flex flex-col items-center gap-3">
                         <h3 className="font-bold text-xl">Sobre o Projeto</h3>
-                        <p className="text-justify mr-3 w-64 ">{sobre}</p>
+                        <p className="text-justify mr-3 w-auto ">{sobre}</p>
                     </div>
 
                     
                     <a className="flex items-center justify-center border border-black w-36 h-11 rounded-lg gap-2 font-bold cursor-pointer hover:text-white hover:bg-black" href={repositorios[repositorio]}>
                         <CiLink size={25}/>
-                        {repositorio}
+                        repositório
                     </a>
 
                 </div>

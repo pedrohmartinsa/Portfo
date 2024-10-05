@@ -22,7 +22,7 @@ function App() {
               </div>
               
 
-              <div className="absolute mr-7 bottom-0 right-0 h-[50%] w-[80vw] overflow-y-scroll md:h-[40%] pl-12 md:pl-0 md:p-7 md:mr-4 md:w-72">
+              <div className="duration-300 absolute mr-7 bottom-0 right-0 h-[50%] w-[80vw] overflow-y-scroll md:h-[40%] pl-12 md:pl-0 md:p-7 md:mr-4 md:w-72">
               <Outlet/>
               </div>
             </div>
