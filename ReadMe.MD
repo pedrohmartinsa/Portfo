@@ -55,8 +55,6 @@ Esse projeto foi desenvolvido á partir do template do [Vite](https://vitejs.dev
 
 ## Dependências
 
-É necessário instalar as bibliotecas apresentadas acima
-
 ### Primeiros passos (no terminal da IDE)
 
 Primeiramente, veja se o Node.js está instalado na sua máquina, utilzando o comando:
