@@ -22,14 +22,14 @@ function App() {
               </div>
               
 
-              <div className="absolute mr-7 bottom-0 right-0 h-[50%] w-[80vw] overflow-y-scroll md:h-[40%] pl-12 md:pl-0 md:p-7 md:mr-4 md:w-72">
+              <div className="absolute bottom-0 right-0 h-[50%] w-[80vw] overflow-y-scroll md:h-[40%] pl-12 md:pl-0 md:p-7 md:mr-4 md:w-72">
               <Outlet/>
               </div>
             </div>
             
             
 
-            <div className="fixed bottom-[-1px] mb-1 w-[100vw] py-4 px-8 md:px-[3rem] lg:px-[4rem] xl:px-[5rem] 2xl:px-[6rem]">
+            <div className="fixed bottom-[-10px] md:bottom-[-1px] mb-1 w-[100vw] py-4 px-8 md:px-[3rem] lg:px-[4rem] xl:px-[5rem] 2xl:px-[6rem]">
 
             <Footer/>
 
