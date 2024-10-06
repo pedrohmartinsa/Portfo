@@ -66,7 +66,7 @@ export default function Contact() {
 
                     </textarea>
                 
-                    <button type="submit" className="bg-secondary mt-5 text-primary self-end w-24 h-10 hover:text-secondary hover:bg-primary border-2 border-primaryrounded-md mr-3">Enviar</button>
+                    <button type="submit" className="bg-secondary mt-5 text-primary self-end w-24 h-10 hover:text-secondary hover:bg-primary border border-primary rounded-md mr-3">Enviar</button>
 
                 </form>
 
